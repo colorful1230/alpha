@@ -19,35 +19,34 @@
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
-title: Someone's blog
+title: test
 description: > # this means to ignore newlines until "Language & timezone"
   Someone's Blog
 
-
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: "zh" # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  name: Someone
-  email: someone@somemail.com # your Email address e.g. someone@site.com
+  name: zhaolin
+  email: zzz891230@gmail.com # your Email address e.g. someone@site.com
   facebook: # your Facebook username
   twitter: # your Twitter username
-  github: # your GitHub username
+  github: https://github.com/zhaolin1230
   linkedin: # your Linkedin username
   googleplus: # your Google+ username
-  weibo: # your Weibo username
+  weibo: https://weibo.com/2382568032/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
   douban: # your Douban username
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: someone/someone.github.io
-repository_tree: master
+repository: https://github.com/zhaolin1230/articles.git
+repository_tree: gh-pages
 
 
 ## => Paths
@@ -152,7 +151,7 @@ defaults:
       path: ""
       type: posts
     values:
-      license: true
+      license: false
       aside:
         toc: true
       pageview: true

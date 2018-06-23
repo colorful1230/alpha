@@ -6,7 +6,7 @@ NAV:
     zh-Hant: "主頁"
   ALL:
     en:      "Archive"
-    zh:      "归档"
+    zh:      "分类"
     zh-Hans: "归档"
     zh-Hant: "歸檔"
   RSS:
@@ -17,7 +17,7 @@ NAV:
 
 READMORE:
   en:      "Click to read more ..."
-  zh:      "点我阅读更多..."
+  zh:      "阅读更多..."
   zh-Hans: "点我阅读更多..."
   zh-Hant: "「點我閱讀更多」"
 

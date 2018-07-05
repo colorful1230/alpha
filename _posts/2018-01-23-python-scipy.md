@@ -1,6 +1,6 @@
 ---
 layout: article
-title: ython数据处理(3)--scipy
+title: python数据处理(3)--scipy
 tags: python
 ---
 

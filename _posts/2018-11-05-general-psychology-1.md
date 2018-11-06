@@ -1,4 +1,4 @@
- ---
+---
 layout: article
 title: 普通心理学(一)—绪论
 tags: 心理学

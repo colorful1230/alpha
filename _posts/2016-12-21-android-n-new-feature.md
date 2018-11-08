@@ -10,6 +10,8 @@ tags: android
 
 在android7.0中原生提供了多窗口模式和画中画模式，多窗口模式将屏幕分为上下或左右两块区域分别显示两个应用，画中画模式主要应用在android TV中，类似于windows中的多窗口。
 
+<!--more-->
+
 #### 分屏
 
 实现分屏功能只需要在AndroidManifest.xml中为application或特定的activity添加以下属性即可

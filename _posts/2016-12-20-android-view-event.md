@@ -138,12 +138,8 @@ MiddleView在ACTION_DOWN和ACTION_UP两个动作的时候都执行了一次onTou
 
 #### 总结
 
-(1) touch事件是由父View向子View传递的，消费的时候是由子View向父View传递的
-
-(2) 这三个方法执行优先级为dispatchTouchEvent()->onInterceptTouchEvent()->onTouchEvent()
-
-(3) 父View可以通过onInterceptTouchEvent()防止事件向后传递
-
-(4) onInterceptTouchEvent()可以将事件拦截在某一层，事件是可以在这一层被消费的；而dispatchTouchEvent()可以组织事件在某一层下发，在这一层无法被消费。
-
+(1) touch事件是由父View向子View传递的，消费的时候是由子View向父View传递的  
+(2) 这三个方法执行优先级为dispatchTouchEvent()->onInterceptTouchEvent()->onTouchEvent()  
+(3) 父View可以通过onInterceptTouchEvent()防止事件向后传递  
+(4) onInterceptTouchEvent()可以将事件拦截在某一层，事件是可以在这一层被消费的；而dispatchTouchEvent()可以组织事件在某一层下发，在这一层无法被消费。  
 (5) onTouchEvent()中的ACTION_DOWN如果没有被消费，则ACTION_UP也不会被消费
